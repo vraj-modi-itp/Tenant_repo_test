@@ -21,7 +21,7 @@ from .prompt import SYSTEM_PROMPT, AGENT_DESCRIPTION
 
 greeter = Agent(
     name="greeter",
-    model='bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0',
+    model='gemini/gemini-2.5-flash-lite',
     description=AGENT_DESCRIPTION,
     instruction=SYSTEM_PROMPT,
     tools=[

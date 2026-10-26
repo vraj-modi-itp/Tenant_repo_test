@@ -15,7 +15,7 @@
     "mcp_servers": [],
     "model_settings": {
       "max_tokens": null,
-      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "name": "gemini/gemini-2.5-flash-lite",
       "temperature": 0.7,
       "top_k": null,
       "top_p": null
@@ -43,10 +43,10 @@
   ],
   "name": "greeter",
   "origin": "tenant_generated",
-  "replaces_version_no": 1,
+  "replaces_version_no": 2,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_0954767d939c",
+    "decision_id": "risk_9092175cb61b",
     "tier": 2
   },
   "schema_version": 1,
@@ -54,6 +54,6 @@
   "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.1",
-  "version_no": 2
+  "version": "1.0.2",
+  "version_no": 3
 }
