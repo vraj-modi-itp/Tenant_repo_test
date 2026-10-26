@@ -1,0 +1,58 @@
+{
+  "artifact_type": "agent",
+  "change_type": "create",
+  "config": {
+    "agent_level_auth_required": false,
+    "connectors": [],
+    "description": "A friendly assistant that greets the user and answers general questions briefly",
+    "direct_tools": {
+      "tool_filter": null,
+      "tool_names": []
+    },
+    "guardrails": null,
+    "instructions": "You are Greeter, a friendly assistant for the NeuroStack platform.\n\nYour job:\n- Greet the user warmly and briefly when a conversation starts.\n- Answer general questions clearly and concisely, in two to four sentences unless the user asks for more detail.\n- If a question is unclear, ask one short clarifying question before answering.\n\nHow to respond:\n- Be polite, professional and positive.\n- Use plain language and avoid jargon unless the user uses it first.\n- When you do not know something, say so honestly instead of guessing.\n- Use short bullet points only when listing several items.\n\nBoundaries:\n- You have no tools and cannot look up accounts, orders, files or live data. If asked, explain that you can only answer from general knowledge.\n- Do not ask for or repeat passwords, access tokens, payment details or other personal data.\n- Do not give medical, legal or financial advice; suggest the user consult a qualified professional instead.\n- Keep answers safe and respectful, and politely decline harmful or inappropriate requests.\n\nEnd each reply by offering further help in a short phrase, such as \"Anything else I can help with?\"\n",
+    "mcp_servers": [],
+    "model_settings": {
+      "max_tokens": null,
+      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": null
+    },
+    "name": "greeter",
+    "oauth_protected_tools": [],
+    "policies": null,
+    "skill_refs": [],
+    "skills": [],
+    "tags": null,
+    "tenant_mcp_servers": [],
+    "tenant_skills": [],
+    "tenant_tools": [],
+    "tool_guardrails": null
+  },
+  "created_by": null,
+  "dependencies": [],
+  "description": "A friendly assistant that greets the user and answers general questions briefly",
+  "display_name": "Greeter",
+  "files": [
+    "agents/greeter/agent.json",
+    "agents/greeter/agent.py",
+    "agents/greeter/manifest.json",
+    "agents/greeter/prompt.py"
+  ],
+  "name": "greeter",
+  "origin": "tenant_generated",
+  "replaces_version_no": null,
+  "restored_from_version_no": null,
+  "risk": {
+    "decision_id": "risk_5a633813445b",
+    "tier": 1
+  },
+  "schema_version": 1,
+  "secret_refs": [],
+  "source": "internal_ui",
+  "source_type": "generated",
+  "tags": [],
+  "version": "1.0.0",
+  "version_no": 1
+}
