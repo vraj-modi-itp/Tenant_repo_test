@@ -16,7 +16,7 @@
   },
   "limitations": {
     "needs_review": true,
-    "value": "Can't do anything else aside from refund policy work."
+    "value": "Only answers refund policy questions; cannot process refunds or see order data"
   },
   "out_of_scope_uses": {
     "needs_review": true,
@@ -28,7 +28,7 @@
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_e3908a24d12c",
+    "decision_id": "risk_52188d185bc6",
     "riskgate_tier": "tier_2",
     "signal_codes": [
       "dynamic_import"
@@ -56,9 +56,9 @@
   },
   "version": {
     "change_type": "edit",
-    "replaces_version_no": 3,
+    "replaces_version_no": 4,
     "restored_from_version_no": null,
-    "version": "1.0.3",
-    "version_no": 4
+    "version": "1.0.4",
+    "version_no": 5
   }
 }
