@@ -1,0 +1,64 @@
+{
+  "artifact_type": "agent",
+  "change_type": "create",
+  "config": {
+    "agent_level_auth_required": false,
+    "connectors": [],
+    "description": "Answers questions about our refund policy",
+    "direct_tools": {
+      "tool_filter": null,
+      "tool_names": []
+    },
+    "governance": {
+      "intended_use": "Customers seeking information about the refund policy",
+      "limitations": "Can't do anything else aside from refund policy work.",
+      "out_of_scope_uses": "Performing tasks unrelated to refund policy",
+      "purpose": "To provide information on the refund policy"
+    },
+    "guardrails": null,
+    "instructions": "->You are supposed to answer customers regarding the refund policy",
+    "mcp_servers": [],
+    "model_settings": {
+      "max_tokens": null,
+      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": null
+    },
+    "name": "test_card_agent",
+    "oauth_protected_tools": [],
+    "policies": null,
+    "skill_refs": [],
+    "skills": [],
+    "tags": null,
+    "tenant_mcp_servers": [],
+    "tenant_skills": [],
+    "tenant_tools": [],
+    "tool_guardrails": null
+  },
+  "created_by": null,
+  "dependencies": [],
+  "description": "Answers questions about our refund policy",
+  "display_name": "Test Card Agent",
+  "files": [
+    "agents/test_card_agent/agent.json",
+    "agents/test_card_agent/agent.py",
+    "agents/test_card_agent/manifest.json",
+    "agents/test_card_agent/prompt.py"
+  ],
+  "name": "test_card_agent",
+  "origin": "tenant_generated",
+  "replaces_version_no": null,
+  "restored_from_version_no": null,
+  "risk": {
+    "decision_id": "risk_5bfe27d49574",
+    "tier": 1
+  },
+  "schema_version": 1,
+  "secret_refs": [],
+  "source": "internal_ui",
+  "source_type": "generated",
+  "tags": [],
+  "version": "1.0.0",
+  "version_no": 1
+}

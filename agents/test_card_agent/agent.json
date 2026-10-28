@@ -1,0 +1,15 @@
+{
+  "name": "test_card_agent",
+  "displayName": "Test Card Agent",
+  "description": "Answers questions about our refund policy",
+  "url": "http://localhost:8001/a2a/test_card_agent",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ]
+}
