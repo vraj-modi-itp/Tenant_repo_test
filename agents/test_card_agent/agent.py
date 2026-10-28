@@ -9,7 +9,15 @@ from google.genai import types
 
 from .prompt import SYSTEM_PROMPT, AGENT_DESCRIPTION
 
-# No MCP servers configured
+import importlib.util as _ilu
+import pathlib as _pl
+_spec_calculator_server = _ilu.spec_from_file_location(
+    'calculator_server',
+    _pl.Path(__file__).parent.parent.parent / 'mcp_servers' / 'internal' / 'calculator_server.py',
+)
+_mod_calculator_server = _ilu.module_from_spec(_spec_calculator_server)
+_spec_calculator_server.loader.exec_module(_mod_calculator_server)
+calculator_server = _mod_calculator_server.create_mcp_server
 
 
 
@@ -26,7 +34,7 @@ test_card_agent = Agent(
     instruction=SYSTEM_PROMPT,
     tools=[
 
-
+        calculator_server(),
     ],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
