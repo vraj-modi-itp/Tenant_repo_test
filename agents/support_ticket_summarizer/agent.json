@@ -1,0 +1,27 @@
+{
+  "name": "support_ticket_summarizer",
+  "displayName": "Support Ticket Summarizer",
+  "description": "Analyzes and summarizes customer support tickets for internal support team use only.",
+  "url": "http://localhost:8001/a2a/support_ticket_summarizer",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "guardrails": {
+    "input": [
+      "prompt_injection",
+      "jailbreak_detection",
+      "pii_detection"
+    ],
+    "output": [
+      "output_validation",
+      "output_pii_redaction"
+    ],
+    "traceability": true
+  }
+}
