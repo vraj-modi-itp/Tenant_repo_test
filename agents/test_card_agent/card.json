@@ -1,6 +1,6 @@
 {
   "approval": {
-    "approved_by": null,
+    "approved_by": "support@intuitive.ai",
     "reason": null
   },
   "asset": {
@@ -28,8 +28,8 @@
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_5bfe27d49574",
-    "riskgate_tier": "tier_1",
+    "decision_id": "risk_d0a18b432bb9",
+    "riskgate_tier": "tier_2",
     "signal_codes": []
   },
   "schema_version": 1,
@@ -44,10 +44,10 @@
     "tools": []
   },
   "version": {
-    "change_type": "create",
-    "replaces_version_no": null,
+    "change_type": "edit",
+    "replaces_version_no": 1,
     "restored_from_version_no": null,
-    "version": "1.0.0",
-    "version_no": 1
+    "version": "1.0.1",
+    "version_no": 2
   }
 }
