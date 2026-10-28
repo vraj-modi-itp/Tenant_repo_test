@@ -1,0 +1,53 @@
+{
+  "approval": {
+    "approved_by": "support@intuitive.ai",
+    "reason": null
+  },
+  "asset": {
+    "asset_id": null,
+    "name": "greeter",
+    "tenant_id": "ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a"
+  },
+  "card_type": "agent_governance_card",
+  "evaluations": [],
+  "intended_use": {
+    "needs_review": true,
+    "value": "The agent is meant to be used by users of the NeuroStack platform to provide friendly greetings ,for demos and brief answers to general questions."
+  },
+  "limitations": {
+    "needs_review": true,
+    "value": "The agent cannot perform tasks that require tools or access to specific data sources and should not handle personal data or inappropriate requests."
+  },
+  "out_of_scope_uses": {
+    "needs_review": true,
+    "value": "The agent should not be used for looking up accounts, orders, files, or live data, nor should it provide medical, legal, or financial advice."
+  },
+  "purpose": {
+    "needs_review": true,
+    "value": "The agent is designed to greet users warmly and provide concise answers to general questions based on its general knowledge."
+  },
+  "risk": {
+    "autonomy_level": null,
+    "decision_id": "risk_8bef7bf31414",
+    "riskgate_tier": "tier_2",
+    "signal_codes": []
+  },
+  "schema_version": 1,
+  "technical": {
+    "connectors": [],
+    "credentials": [],
+    "dependencies": [],
+    "guardrails": null,
+    "mcp_servers": [],
+    "model": "gemini/gemini-2.5-flash-lite",
+    "skills": [],
+    "tools": []
+  },
+  "version": {
+    "change_type": "edit",
+    "replaces_version_no": 3,
+    "restored_from_version_no": null,
+    "version": "1.0.3",
+    "version_no": 4
+  }
+}
