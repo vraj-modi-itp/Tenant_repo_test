@@ -1,0 +1,53 @@
+{
+  "approval": {
+    "approved_by": null,
+    "reason": null
+  },
+  "asset": {
+    "asset_id": null,
+    "name": "t3_reject_agent",
+    "tenant_id": "ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a"
+  },
+  "card_type": "agent_governance_card",
+  "evaluations": [],
+  "intended_use": {
+    "needs_review": true,
+    "value": "Internal finance staff asking arithmetic questions."
+  },
+  "limitations": {
+    "needs_review": true,
+    "value": "Only does arithmetic through the calculator tool; can make mistakes with unclear questions."
+  },
+  "out_of_scope_uses": {
+    "needs_review": true,
+    "value": "Financial advice, tax decisions, anything outside arithmetic"
+  },
+  "purpose": {
+    "needs_review": true,
+    "value": "Help the finance team with quick calculations."
+  },
+  "risk": {
+    "autonomy_level": null,
+    "decision_id": "risk_774c970ad46b",
+    "riskgate_tier": "tier_1",
+    "signal_codes": []
+  },
+  "schema_version": 1,
+  "technical": {
+    "connectors": [],
+    "credentials": [],
+    "dependencies": [],
+    "guardrails": null,
+    "mcp_servers": [],
+    "model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "skills": [],
+    "tools": []
+  },
+  "version": {
+    "change_type": "create",
+    "replaces_version_no": null,
+    "restored_from_version_no": null,
+    "version": "1.0.0",
+    "version_no": 1
+  }
+}
