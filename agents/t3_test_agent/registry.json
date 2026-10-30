@@ -7,7 +7,9 @@
     "description": "Answers simple maths questions for the finance team.",
     "direct_tools": {
       "tool_filter": null,
-      "tool_names": []
+      "tool_names": [
+        "create_engine"
+      ]
     },
     "fork_confirmed": false,
     "governance": {
@@ -38,7 +40,15 @@
     "tool_guardrails": null
   },
   "created_by": null,
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "enhanced_database_tools.py",
+      "origin": "platform",
+      "type": "tool",
+      "upstream_content_hash": "c165bfa82aadc00e18153a38a1b6f3f8d0481515b039fb86a3992ec851cb091a",
+      "upstream_version": "platform"
+    }
+  ],
   "description": "Answers simple maths questions for the finance team.",
   "display_name": "T3 Test Agent",
   "files": [
@@ -49,10 +59,10 @@
   ],
   "name": "t3_test_agent",
   "origin": "tenant_generated",
-  "replaces_version_no": 1,
+  "replaces_version_no": 2,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_94a27ffefa1f",
+    "decision_id": "risk_16745c5c04b4",
     "tier": 2
   },
   "schema_version": 1,
@@ -60,6 +70,6 @@
   "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.1",
-  "version_no": 2
+  "version": "1.0.2",
+  "version_no": 3
 }

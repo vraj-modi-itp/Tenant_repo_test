@@ -4,43 +4,43 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 2 (1.0.1)
+- Version 3 (1.0.2)
 - Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: —
 
-## Purpose
+## Purpose (Needs review)
 
 The agent is designed to provide assistance with basic mathematical queries.
 
-## Intended use
+## Intended use (Needs review)
 
 The agent is meant to assist the finance team by answering simple maths questions.
 
-## Out-of-scope uses
+## Out-of-scope uses (Needs review)
 
 It should not be used for tasks outside of answering simple maths questions for the finance team.
 
-## Limitations
+## Limitations (Needs review)
 
 It cannot perform tasks other than using the calculator tool for simple maths calculations.
 
 ## Technical
 
 - Model: bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0
-- Tools: none
+- Tools: create_engine
 - MCP servers: none
 - Connectors: none
 - Skills: none
 - Credentials (names only): none
-- Dependencies: none
+- Dependencies: tool/enhanced_database_tools.py
 - Guardrails: none declared
 
 ## Risk
 
 - RiskGate tier: tier_2
-- Decision: risk_94a27ffefa1f
-- Signals: none
+- Decision: risk_16745c5c04b4
+- Signals: dynamic_import
 - Autonomy level: —
 
 ## Evaluations

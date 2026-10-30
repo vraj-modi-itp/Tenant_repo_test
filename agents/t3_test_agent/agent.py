@@ -9,7 +9,15 @@ from google.genai import types
 
 from .prompt import SYSTEM_PROMPT, AGENT_DESCRIPTION
 
-# No MCP servers configured
+import importlib.util as _ilu
+import pathlib as _pl
+_spec_tools_enhanced_database_tools = _ilu.spec_from_file_location(
+    'enhanced_database_tools',
+    _pl.Path(__file__).parent.parent.parent / 'tools' / 'enhanced_database_tools.py',
+)
+_mod_tools_enhanced_database_tools = _ilu.module_from_spec(_spec_tools_enhanced_database_tools)
+_spec_tools_enhanced_database_tools.loader.exec_module(_mod_tools_enhanced_database_tools)
+create_engine = _mod_tools_enhanced_database_tools.create_engine
 
 
 
@@ -26,7 +34,7 @@ t3_test_agent = Agent(
     instruction=SYSTEM_PROMPT,
     tools=[
 
-
+        create_engine,
     ],
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
