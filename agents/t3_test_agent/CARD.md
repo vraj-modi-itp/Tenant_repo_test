@@ -4,24 +4,24 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 1 (1.0.0)
-- Change: create
+- Version 2 (1.0.1)
+- Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: —
 
-## Purpose (Needs review)
+## Purpose
 
 The agent is designed to provide assistance with basic mathematical queries.
 
-## Intended use (Needs review)
+## Intended use
 
 The agent is meant to assist the finance team by answering simple maths questions.
 
-## Out-of-scope uses (Needs review)
+## Out-of-scope uses
 
 It should not be used for tasks outside of answering simple maths questions for the finance team.
 
-## Limitations (Needs review)
+## Limitations
 
 It cannot perform tasks other than using the calculator tool for simple maths calculations.
 
@@ -38,8 +38,8 @@ It cannot perform tasks other than using the calculator tool for simple maths ca
 
 ## Risk
 
-- RiskGate tier: tier_1
-- Decision: risk_9ac38e6d470c
+- RiskGate tier: tier_2
+- Decision: risk_94a27ffefa1f
 - Signals: none
 - Autonomy level: —
 
@@ -49,5 +49,5 @@ _None linked._
 
 ## RiskGate approval of this change
 
-- Approved by: —
+- Approved by: support@intuitive.ai
 - Reason: —

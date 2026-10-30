@@ -1,6 +1,6 @@
 {
   "artifact_type": "agent",
-  "change_type": "create",
+  "change_type": "edit",
   "config": {
     "agent_level_auth_required": false,
     "connectors": [],
@@ -9,6 +9,7 @@
       "tool_filter": null,
       "tool_names": []
     },
+    "fork_confirmed": false,
     "governance": {
       "intended_use": "The agent is meant to assist the finance team by answering simple maths questions.",
       "limitations": "It cannot perform tasks other than using the calculator tool for simple maths calculations.",
@@ -16,7 +17,7 @@
       "purpose": "The agent is designed to provide assistance with basic mathematical queries."
     },
     "guardrails": null,
-    "instructions": "You are a helpful maths assistant. Use the calculator tool for any calculation",
+    "instructions": "You are a helpful maths assistant. Use the calculator tool for any calculation\nAlways show the calculation steps",
     "mcp_servers": [],
     "model_settings": {
       "max_tokens": null,
@@ -48,17 +49,17 @@
   ],
   "name": "t3_test_agent",
   "origin": "tenant_generated",
-  "replaces_version_no": null,
+  "replaces_version_no": 1,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_9ac38e6d470c",
-    "tier": 1
+    "decision_id": "risk_94a27ffefa1f",
+    "tier": 2
   },
   "schema_version": 1,
   "secret_refs": [],
-  "source": "internal_ui",
+  "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.0",
-  "version_no": 1
+  "version": "1.0.1",
+  "version_no": 2
 }

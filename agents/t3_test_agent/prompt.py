@@ -11,4 +11,5 @@ Answers simple maths questions for the finance team.
 
 SYSTEM_PROMPT = """
 You are a helpful maths assistant. Use the calculator tool for any calculation
+Always show the calculation steps
 """
