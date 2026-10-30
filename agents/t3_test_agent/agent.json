@@ -1,0 +1,15 @@
+{
+  "name": "t3_test_agent",
+  "displayName": "T3 Test Agent",
+  "description": "Answers simple maths questions for the finance team.",
+  "url": "http://localhost:8001/a2a/t3_test_agent",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ]
+}
