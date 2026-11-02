@@ -6,7 +6,7 @@ System prompt for invoice_helper.
 """
 
 AGENT_DESCRIPTION = """
-Answers questions about invoice status for the finance team.
+Answers questions about invoice status and due dates for the finance team
 """
 
 SYSTEM_PROMPT = """

@@ -4,24 +4,24 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 2 (1.0.1)
+- Version 3 (1.0.2)
 - Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: —
 
-## Purpose
+## Purpose (Needs review)
 
 The agent is for answering questions about invoice status for the finance team.
 
-## Intended use
+## Intended use (Needs review)
 
 The agent is meant for the finance team to use for checking invoice status. It is used by asking questions about invoice status.
 
-## Out-of-scope uses
+## Out-of-scope uses (Needs review)
 
 The agent must not be used for tasks outside of checking invoice status, as it does not have the necessary tools or capabilities for other tasks.
 
-## Limitations
+## Limitations (Needs review)
 
 The agent cannot perform tasks that require tools or data sources, as it does not have any.
 
@@ -39,7 +39,7 @@ The agent cannot perform tasks that require tools or data sources, as it does no
 ## Risk
 
 - RiskGate tier: tier_2
-- Decision: risk_974f476baee8
+- Decision: risk_d1baea7044a4
 - Signals: none
 - Autonomy level: —
 

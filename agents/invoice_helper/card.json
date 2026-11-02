@@ -11,24 +11,24 @@
   "card_type": "agent_governance_card",
   "evaluations": [],
   "intended_use": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent is meant for the finance team to use for checking invoice status. It is used by asking questions about invoice status."
   },
   "limitations": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent cannot perform tasks that require tools or data sources, as it does not have any."
   },
   "out_of_scope_uses": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent must not be used for tasks outside of checking invoice status, as it does not have the necessary tools or capabilities for other tasks."
   },
   "purpose": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent is for answering questions about invoice status for the finance team."
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_974f476baee8",
+    "decision_id": "risk_d1baea7044a4",
     "riskgate_tier": "tier_2",
     "signal_codes": []
   },
@@ -45,9 +45,9 @@
   },
   "version": {
     "change_type": "edit",
-    "replaces_version_no": 1,
+    "replaces_version_no": 2,
     "restored_from_version_no": null,
-    "version": "1.0.1",
-    "version_no": 2
+    "version": "1.0.2",
+    "version_no": 3
   }
 }
