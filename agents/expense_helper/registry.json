@@ -1,0 +1,64 @@
+{
+  "artifact_type": "agent",
+  "change_type": "create",
+  "config": {
+    "agent_level_auth_required": false,
+    "connectors": [],
+    "description": "Answers employees' questions about the company expense policy and how to submit expense claims.",
+    "direct_tools": {
+      "tool_filter": null,
+      "tool_names": []
+    },
+    "governance": {
+      "intended_use": "The expense_helper agent is meant for employees to use when they have questions about the company expense policy and the process for submitting expense claims.",
+      "limitations": "The agent cannot approve, reject, or change expense claims, and it may not be able to answer all questions if they are outside the scope of the company expense policy.",
+      "out_of_scope_uses": "The agent must not be used for approving, rejecting, or changing expense claims, as it does not have the necessary tools or permissions to do so.",
+      "purpose": "The purpose of the expense_helper agent is to assist employees by providing information on the company's expense policy and the procedure for submitting expense claims."
+    },
+    "guardrails": null,
+    "instructions": "You help employees understand the company expense policy. Explain what can be claimed, the spending limits, which receipts are needed, and how to submit a claim. If you are not sure, say so and point the employee to the finance team. Never approve, reject or change a claim.",
+    "mcp_servers": [],
+    "model_settings": {
+      "max_tokens": null,
+      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": null
+    },
+    "name": "expense_helper",
+    "oauth_protected_tools": [],
+    "policies": null,
+    "skill_refs": [],
+    "skills": [],
+    "tags": null,
+    "tenant_mcp_servers": [],
+    "tenant_skills": [],
+    "tenant_tools": [],
+    "tool_guardrails": null
+  },
+  "created_by": "support@intuitive.ai",
+  "dependencies": [],
+  "description": "Answers employees' questions about the company expense policy and how to submit expense claims.",
+  "display_name": "Expense Helper",
+  "files": [
+    "agents/expense_helper/agent.json",
+    "agents/expense_helper/agent.py",
+    "agents/expense_helper/manifest.json",
+    "agents/expense_helper/prompt.py"
+  ],
+  "name": "expense_helper",
+  "origin": "tenant_generated",
+  "replaces_version_no": null,
+  "restored_from_version_no": null,
+  "risk": {
+    "decision_id": "risk_9abdce751ecd",
+    "tier": 1
+  },
+  "schema_version": 1,
+  "secret_refs": [],
+  "source": "internal_ui",
+  "source_type": "generated",
+  "tags": [],
+  "version": "1.0.0",
+  "version_no": 1
+}
