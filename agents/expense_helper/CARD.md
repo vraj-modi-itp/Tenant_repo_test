@@ -4,24 +4,24 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 2 (1.0.1)
+- Version 3 (1.0.2)
 - Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: cp_e6fa4be58e11a03096d79af1
 
-## Purpose
+## Purpose (Needs review)
 
 The purpose of the expense_helper agent is to assist employees by providing information on the company's expense policy and the procedure for submitting expense claims.
 
-## Intended use
+## Intended use (Needs review)
 
 The expense_helper agent is meant for employees to use when they have questions about the company expense policy and the process for submitting expense claims.
 
-## Out-of-scope uses
+## Out-of-scope uses (Needs review)
 
 The agent must not be used for approving, rejecting, or changing expense claims, as it does not have the necessary tools or permissions to do so.
 
-## Limitations
+## Limitations (Needs review)
 
 The agent cannot approve, reject, or change expense claims, and it may not be able to answer all questions if they are outside the scope of the company expense policy.
 
@@ -39,7 +39,7 @@ The agent cannot approve, reject, or change expense claims, and it may not be ab
 ## Risk
 
 - RiskGate tier: tier_2
-- Decision: risk_c1fb1afbfc70
+- Decision: risk_ca4b9b952caa
 - Signals: none
 - Autonomy level: —
 

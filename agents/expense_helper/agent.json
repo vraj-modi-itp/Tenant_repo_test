@@ -1,7 +1,7 @@
 {
   "name": "expense_helper",
   "displayName": "Expense Helper",
-  "description": "Answers employees' questions about the company expense policy and how to submit expense claims.",
+  "description": "Answers employees' questions about the company expense and travel policy and how to submit expense claims.",
   "url": "http://localhost:8001/a2a/expense_helper",
   "version": "1.0.0",
   "protocolVersion": "0.3",

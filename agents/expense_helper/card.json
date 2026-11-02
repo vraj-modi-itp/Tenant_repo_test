@@ -11,24 +11,24 @@
   "card_type": "agent_governance_card",
   "evaluations": [],
   "intended_use": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The expense_helper agent is meant for employees to use when they have questions about the company expense policy and the process for submitting expense claims."
   },
   "limitations": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent cannot approve, reject, or change expense claims, and it may not be able to answer all questions if they are outside the scope of the company expense policy."
   },
   "out_of_scope_uses": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The agent must not be used for approving, rejecting, or changing expense claims, as it does not have the necessary tools or permissions to do so."
   },
   "purpose": {
-    "needs_review": false,
+    "needs_review": true,
     "value": "The purpose of the expense_helper agent is to assist employees by providing information on the company's expense policy and the procedure for submitting expense claims."
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_c1fb1afbfc70",
+    "decision_id": "risk_ca4b9b952caa",
     "riskgate_tier": "tier_2",
     "signal_codes": []
   },
@@ -45,9 +45,9 @@
   },
   "version": {
     "change_type": "edit",
-    "replaces_version_no": 1,
+    "replaces_version_no": 2,
     "restored_from_version_no": null,
-    "version": "1.0.1",
-    "version_no": 2
+    "version": "1.0.2",
+    "version_no": 3
   }
 }

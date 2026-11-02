@@ -6,7 +6,7 @@ System prompt for expense_helper.
 """
 
 AGENT_DESCRIPTION = """
-Answers employees' questions about the company expense policy and how to submit expense claims.
+Answers employees' questions about the company expense and travel policy and how to submit expense claims.
 """
 
 SYSTEM_PROMPT = """
