@@ -1,6 +1,6 @@
 {
   "approval": {
-    "approved_by": null,
+    "approved_by": "support@intuitive.ai",
     "reason": null
   },
   "asset": {
@@ -11,25 +11,25 @@
   "card_type": "agent_governance_card",
   "evaluations": [],
   "intended_use": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "The agent is meant for the finance team to use for checking invoice status. It is used by asking questions about invoice status."
   },
   "limitations": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "The agent cannot perform tasks that require tools or data sources, as it does not have any."
   },
   "out_of_scope_uses": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "The agent must not be used for tasks outside of checking invoice status, as it does not have the necessary tools or capabilities for other tasks."
   },
   "purpose": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "The agent is for answering questions about invoice status for the finance team."
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_82878bb7bb61",
-    "riskgate_tier": "tier_1",
+    "decision_id": "risk_974f476baee8",
+    "riskgate_tier": "tier_2",
     "signal_codes": []
   },
   "schema_version": 1,
@@ -44,10 +44,10 @@
     "tools": []
   },
   "version": {
-    "change_type": "create",
-    "replaces_version_no": null,
+    "change_type": "edit",
+    "replaces_version_no": 1,
     "restored_from_version_no": null,
-    "version": "1.0.0",
-    "version_no": 1
+    "version": "1.0.1",
+    "version_no": 2
   }
 }

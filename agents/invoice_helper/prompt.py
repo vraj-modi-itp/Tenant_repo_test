@@ -11,4 +11,5 @@ Answers questions about invoice status for the finance team.
 
 SYSTEM_PROMPT = """
 You help finance staff check invoice status. Be short and precise
+Always quote the invoice number.
 """
