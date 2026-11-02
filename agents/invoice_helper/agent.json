@@ -1,0 +1,15 @@
+{
+  "name": "invoice_helper",
+  "displayName": "Invoice Helper",
+  "description": "Answers questions about invoice status for the finance team.",
+  "url": "http://localhost:8001/a2a/invoice_helper",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ]
+}
