@@ -1,6 +1,6 @@
 {
   "approval": {
-    "approved_by": null,
+    "approved_by": "demo.reviewer@intuitive.ai",
     "reason": null
   },
   "asset": {
@@ -11,25 +11,25 @@
   "card_type": "agent_governance_card",
   "evaluations": [],
   "intended_use": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "Used by employees through the internal help portal before they book a trip or submit a travel claim. Answers are guidance only; the travel desk checks every claim."
   },
   "limitations": {
     "needs_review": true,
-    "value": "Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated."
+    "value": "Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated. It answers in English only."
   },
   "out_of_scope_uses": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "Must not book travel, approve, reject or change claims, give tax or visa advice, or answer questions about other employees. Not for people outside the company."
   },
   "purpose": {
-    "needs_review": true,
+    "needs_review": false,
     "value": "Answers employees' questions about the travel policy: booking rules, hotel and meal limits, required receipts, and how to claim travel costs."
   },
   "risk": {
     "autonomy_level": null,
-    "decision_id": "risk_7da474e0acec",
-    "riskgate_tier": "tier_1",
+    "decision_id": "risk_69713581aa60",
+    "riskgate_tier": "tier_2",
     "signal_codes": []
   },
   "schema_version": 1,
@@ -44,10 +44,10 @@
     "tools": []
   },
   "version": {
-    "change_type": "create",
-    "replaces_version_no": null,
+    "change_type": "edit",
+    "replaces_version_no": 1,
     "restored_from_version_no": null,
-    "version": "1.0.0",
-    "version_no": 1
+    "version": "1.0.1",
+    "version_no": 2
   }
 }

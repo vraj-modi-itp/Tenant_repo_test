@@ -4,26 +4,26 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 1 (1.0.0)
-- Change: create
+- Version 2 (1.0.1)
+- Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: cp_a86b4b3a1a9bfc5eefc6df79
 
-## Purpose (Needs review)
+## Purpose
 
 Answers employees' questions about the travel policy: booking rules, hotel and meal limits, required receipts, and how to claim travel costs.
 
-## Intended use (Needs review)
+## Intended use
 
 Used by employees through the internal help portal before they book a trip or submit a travel claim. Answers are guidance only; the travel desk checks every claim.
 
-## Out-of-scope uses (Needs review)
+## Out-of-scope uses
 
 Must not book travel, approve, reject or change claims, give tax or visa advice, or answer questions about other employees. Not for people outside the company.
 
 ## Limitations (Needs review)
 
-Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated.
+Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated. It answers in English only.
 
 ## Technical
 
@@ -38,8 +38,8 @@ Knows only the policy text it was given; it cannot see bookings or claims. Polic
 
 ## Risk
 
-- RiskGate tier: tier_1
-- Decision: risk_7da474e0acec
+- RiskGate tier: tier_2
+- Decision: risk_69713581aa60
 - Signals: none
 - Autonomy level: —
 
@@ -49,5 +49,5 @@ _None linked._
 
 ## RiskGate approval of this change
 
-- Approved by: —
+- Approved by: demo.reviewer@intuitive.ai
 - Reason: —

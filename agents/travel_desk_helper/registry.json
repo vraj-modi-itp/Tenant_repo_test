@@ -1,6 +1,6 @@
 {
   "artifact_type": "agent",
-  "change_type": "create",
+  "change_type": "edit",
   "config": {
     "agent_level_auth_required": false,
     "connectors": [],
@@ -9,9 +9,10 @@
       "tool_filter": null,
       "tool_names": []
     },
+    "fork_confirmed": false,
     "governance": {
       "intended_use": "Used by employees through the internal help portal before they book a trip or submit a travel claim. Answers are guidance only; the travel desk checks every claim.",
-      "limitations": "Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated.",
+      "limitations": "Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated. It answers in English only.",
       "out_of_scope_uses": "Must not book travel, approve, reject or change claims, give tax or visa advice, or answer questions about other employees. Not for people outside the company.",
       "purpose": "Answers employees' questions about the travel policy: booking rules, hotel and meal limits, required receipts, and how to claim travel costs."
     },
@@ -48,17 +49,17 @@
   ],
   "name": "travel_desk_helper",
   "origin": "tenant_generated",
-  "replaces_version_no": null,
+  "replaces_version_no": 1,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_7da474e0acec",
-    "tier": 1
+    "decision_id": "risk_69713581aa60",
+    "tier": 2
   },
   "schema_version": 1,
   "secret_refs": [],
-  "source": "internal_ui",
+  "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.0",
-  "version_no": 1
+  "version": "1.0.1",
+  "version_no": 2
 }
