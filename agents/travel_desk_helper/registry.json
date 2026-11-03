@@ -1,0 +1,64 @@
+{
+  "artifact_type": "agent",
+  "change_type": "create",
+  "config": {
+    "agent_level_auth_required": false,
+    "connectors": [],
+    "description": "Answers employees' questions about the company travel policy: booking rules, daily allowances, and how to claim travel costs.",
+    "direct_tools": {
+      "tool_filter": null,
+      "tool_names": []
+    },
+    "governance": {
+      "intended_use": "Used by employees through the internal help portal before they book a trip or submit a travel claim. Answers are guidance only; the travel desk checks every claim.",
+      "limitations": "Knows only the policy text it was given; it cannot see bookings or claims. Policy changes are unknown until the agent is updated.",
+      "out_of_scope_uses": "Must not book travel, approve, reject or change claims, give tax or visa advice, or answer questions about other employees. Not for people outside the company.",
+      "purpose": "Answers employees' questions about the travel policy: booking rules, hotel and meal limits, required receipts, and how to claim travel costs."
+    },
+    "guardrails": null,
+    "instructions": "You help employees understand the company travel policy. Explain booking rules, hotel and meal limits, which receipts are needed, and how to claim travel costs. If you are not sure, say so and point the employee to the travel desk. Never book travel, and never approve or change a claim.",
+    "mcp_servers": [],
+    "model_settings": {
+      "max_tokens": null,
+      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": null
+    },
+    "name": "travel_desk_helper",
+    "oauth_protected_tools": [],
+    "policies": null,
+    "skill_refs": [],
+    "skills": [],
+    "tags": null,
+    "tenant_mcp_servers": [],
+    "tenant_skills": [],
+    "tenant_tools": [],
+    "tool_guardrails": null
+  },
+  "created_by": "support@intuitive.ai",
+  "dependencies": [],
+  "description": "Answers employees' questions about the company travel policy: booking rules, daily allowances, and how to claim travel costs.",
+  "display_name": "Travel Desk Helper",
+  "files": [
+    "agents/travel_desk_helper/agent.json",
+    "agents/travel_desk_helper/agent.py",
+    "agents/travel_desk_helper/manifest.json",
+    "agents/travel_desk_helper/prompt.py"
+  ],
+  "name": "travel_desk_helper",
+  "origin": "tenant_generated",
+  "replaces_version_no": null,
+  "restored_from_version_no": null,
+  "risk": {
+    "decision_id": "risk_7da474e0acec",
+    "tier": 1
+  },
+  "schema_version": 1,
+  "secret_refs": [],
+  "source": "internal_ui",
+  "source_type": "generated",
+  "tags": [],
+  "version": "1.0.0",
+  "version_no": 1
+}

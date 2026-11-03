@@ -1,0 +1,15 @@
+{
+  "name": "travel_desk_helper",
+  "displayName": "Travel Desk Helper",
+  "description": "Answers employees' questions about the company travel policy: booking rules, daily allowances, and how to claim travel costs.",
+  "url": "http://localhost:8001/a2a/travel_desk_helper",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ]
+}
