@@ -1,0 +1,15 @@
+{
+  "name": "travel_assistant",
+  "displayName": "Travel Assistant",
+  "description": "Answers employees' questions about the company travel policy: booking rules, daily allowances, and how to claim travel costs.",
+  "url": "http://localhost:8001/a2a/travel_assistant",
+  "version": "1.0.0",
+  "protocolVersion": "0.3",
+  "capabilities": {},
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ]
+}

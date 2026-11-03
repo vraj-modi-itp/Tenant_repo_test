@@ -1,0 +1,53 @@
+{
+  "approval": {
+    "approved_by": null,
+    "reason": null
+  },
+  "asset": {
+    "asset_id": "cp_b90e8c6e19c8471eb53e3b69",
+    "name": "travel_assistant",
+    "tenant_id": "ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a"
+  },
+  "card_type": "agent_governance_card",
+  "evaluations": [],
+  "intended_use": {
+    "needs_review": true,
+    "value": "who is meant to use it, and how."
+  },
+  "limitations": {
+    "needs_review": true,
+    "value": "what it cannot do or may get wrong, given its tools and instructions."
+  },
+  "out_of_scope_uses": {
+    "needs_review": true,
+    "value": "what it must not be used for, given what it can and cannot do."
+  },
+  "purpose": {
+    "needs_review": true,
+    "value": "what the agent is for (one or two sentences);"
+  },
+  "risk": {
+    "autonomy_level": null,
+    "decision_id": "risk_e9453191ab81",
+    "riskgate_tier": "tier_1",
+    "signal_codes": []
+  },
+  "schema_version": 1,
+  "technical": {
+    "connectors": [],
+    "credentials": [],
+    "dependencies": [],
+    "guardrails": null,
+    "mcp_servers": [],
+    "model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "skills": [],
+    "tools": []
+  },
+  "version": {
+    "change_type": "create",
+    "replaces_version_no": null,
+    "restored_from_version_no": null,
+    "version": "1.0.0",
+    "version_no": 1
+  }
+}
