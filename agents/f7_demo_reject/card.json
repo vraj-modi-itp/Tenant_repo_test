@@ -1,0 +1,53 @@
+{
+  "approval": {
+    "approved_by": null,
+    "reason": null
+  },
+  "asset": {
+    "asset_id": "cp_0035bafdf89dad74f973c73c",
+    "name": "f7_demo_reject",
+    "tenant_id": "ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a"
+  },
+  "card_type": "agent_governance_card",
+  "evaluations": [],
+  "intended_use": {
+    "needs_review": true,
+    "value": "The agent is meant for the finance team to use for simple arithmetic questions."
+  },
+  "limitations": {
+    "needs_review": true,
+    "value": "The agent cannot perform complex calculations or provide financial analysis."
+  },
+  "out_of_scope_uses": {
+    "needs_review": true,
+    "value": "The agent must not be used for complex financial analysis or decision-making."
+  },
+  "purpose": {
+    "needs_review": true,
+    "value": "The agent is for answering simple arithmetic questions for the finance team."
+  },
+  "risk": {
+    "autonomy_level": null,
+    "decision_id": "risk_15c013406040",
+    "riskgate_tier": "tier_1",
+    "signal_codes": []
+  },
+  "schema_version": 1,
+  "technical": {
+    "connectors": [],
+    "credentials": [],
+    "dependencies": [],
+    "guardrails": null,
+    "mcp_servers": [],
+    "model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "skills": [],
+    "tools": []
+  },
+  "version": {
+    "change_type": "create",
+    "replaces_version_no": null,
+    "restored_from_version_no": null,
+    "version": "1.0.0",
+    "version_no": 1
+  }
+}
