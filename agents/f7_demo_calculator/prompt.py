@@ -6,7 +6,7 @@ System prompt for f7_demo_calculator.
 """
 
 AGENT_DESCRIPTION = """
-Answers simple arithmetic questions for the finance team.
+Answers arithmetic and percentage questions for the finance team.
 """
 
 SYSTEM_PROMPT = """

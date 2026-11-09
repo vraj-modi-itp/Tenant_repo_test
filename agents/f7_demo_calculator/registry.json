@@ -1,17 +1,18 @@
 {
   "artifact_type": "agent",
-  "change_type": "create",
+  "change_type": "edit",
   "config": {
     "agent_level_auth_required": false,
     "connectors": [],
-    "description": "Answers simple arithmetic questions for the finance team.",
+    "description": "Answers arithmetic and percentage questions for the finance team.",
     "direct_tools": {
       "tool_filter": null,
       "tool_names": []
     },
+    "fork_confirmed": false,
     "governance": {
       "intended_use": "The agent is meant for the finance team to use for simple arithmetic questions.",
-      "limitations": "The agent cannot perform complex calculations or provide financial analysis.",
+      "limitations": "Can make mistakes with very large numbers or long decimals.",
       "out_of_scope_uses": "The agent must not be used for complex financial analysis or decision-making.",
       "purpose": "The agent is for answering simple arithmetic questions for the finance team."
     },
@@ -38,7 +39,7 @@
   },
   "created_by": "support@intuitive.ai",
   "dependencies": [],
-  "description": "Answers simple arithmetic questions for the finance team.",
+  "description": "Answers arithmetic and percentage questions for the finance team.",
   "display_name": "F7 Demo Calculator",
   "files": [
     "agents/f7_demo_calculator/agent.json",
@@ -48,17 +49,17 @@
   ],
   "name": "f7_demo_calculator",
   "origin": "tenant_generated",
-  "replaces_version_no": null,
+  "replaces_version_no": 1,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_0dbfe8a7bb07",
-    "tier": 1
+    "decision_id": "risk_5227d00ed235",
+    "tier": 2
   },
   "schema_version": 1,
   "secret_refs": [],
-  "source": "internal_ui",
+  "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.0",
-  "version_no": 1
+  "version": "1.0.1",
+  "version_no": 2
 }

@@ -1,7 +1,7 @@
 {
   "name": "f7_demo_calculator",
   "displayName": "F7 Demo Calculator",
-  "description": "Answers simple arithmetic questions for the finance team.",
+  "description": "Answers arithmetic and percentage questions for the finance team.",
   "url": "http://localhost:8001/a2a/f7_demo_calculator",
   "version": "1.0.0",
   "protocolVersion": "0.3",

@@ -4,8 +4,8 @@
 >
 > Approval status of this card is tracked in NeuroStack, not in this file.
 
-- Version 1 (1.0.0)
-- Change: create
+- Version 2 (1.0.1)
+- Change: edit
 - Tenant: ce18049d59b98e86f27175d63a1c7adfdc295b11469deced2a3158a452affb8a
 - Asset: cp_c765c56b565211a62e73f49a
 
@@ -23,7 +23,7 @@ The agent must not be used for complex financial analysis or decision-making.
 
 ## Limitations (Needs review)
 
-The agent cannot perform complex calculations or provide financial analysis.
+Can make mistakes with very large numbers or long decimals.
 
 ## Technical
 
@@ -38,8 +38,8 @@ The agent cannot perform complex calculations or provide financial analysis.
 
 ## Risk
 
-- RiskGate tier: tier_1
-- Decision: risk_0dbfe8a7bb07
+- RiskGate tier: tier_2
+- Decision: risk_5227d00ed235
 - Signals: none
 - Autonomy level: —
 
@@ -49,5 +49,5 @@ _None linked._
 
 ## RiskGate approval of this change
 
-- Approved by: —
+- Approved by: support@intuitive.ai
 - Reason: —
