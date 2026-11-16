@@ -1,7 +1,7 @@
 {
   "name": "invoice_triage_demo",
   "displayName": "Invoice Triage Demo",
-  "description": "Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.",
+  "description": "Reads incoming supplier invoices, sorts them into urgent, normal and on-hold queues, and flags possible duplicate invoices for the accounts payable team",
   "url": "http://localhost:8001/a2a/invoice_triage_demo",
   "version": "1.0.0",
   "protocolVersion": "0.3",

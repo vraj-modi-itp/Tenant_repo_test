@@ -1,14 +1,15 @@
 {
   "artifact_type": "agent",
-  "change_type": "create",
+  "change_type": "edit",
   "config": {
     "agent_level_auth_required": false,
     "connectors": [],
-    "description": "Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.",
+    "description": "Reads incoming supplier invoices, sorts them into urgent, normal and on-hold queues, and flags possible duplicate invoices for the accounts payable team",
     "direct_tools": {
       "tool_filter": null,
       "tool_names": []
     },
+    "fork_confirmed": false,
     "governance": {
       "intended_use": "The agent is meant for the accounts payable team to use in triaging supplier invoices. It will read the supplier, amount, due date, and any notes for each invoice and sort it into one of three queues: URGENT, NORMAL, or ON HOLD.",
       "limitations": "The agent cannot perform any actions beyond sorting invoices into queues. It may get wrong if the information on the invoice is unclear or missing.",
@@ -38,7 +39,7 @@
   },
   "created_by": "support@intuitive.ai",
   "dependencies": [],
-  "description": "Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.",
+  "description": "Reads incoming supplier invoices, sorts them into urgent, normal and on-hold queues, and flags possible duplicate invoices for the accounts payable team",
   "display_name": "Invoice Triage Demo",
   "files": [
     "agents/invoice_triage_demo/agent.json",
@@ -48,17 +49,17 @@
   ],
   "name": "invoice_triage_demo",
   "origin": "tenant_generated",
-  "replaces_version_no": null,
+  "replaces_version_no": 1,
   "restored_from_version_no": null,
   "risk": {
-    "decision_id": "risk_c9414695781e",
-    "tier": 1
+    "decision_id": "risk_d9e8e8edf19c",
+    "tier": 2
   },
   "schema_version": 1,
   "secret_refs": [],
-  "source": "internal_ui",
+  "source": "human_approval",
   "source_type": "generated",
   "tags": [],
-  "version": "1.0.0",
-  "version_no": 1
+  "version": "1.0.1",
+  "version_no": 2
 }

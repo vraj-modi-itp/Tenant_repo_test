@@ -6,7 +6,7 @@ System prompt for invoice_triage_demo.
 """
 
 AGENT_DESCRIPTION = """
-Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.
+Reads incoming supplier invoices, sorts them into urgent, normal and on-hold queues, and flags possible duplicate invoices for the accounts payable team
 """
 
 SYSTEM_PROMPT = """
