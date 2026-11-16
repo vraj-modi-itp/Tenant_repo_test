@@ -1,0 +1,64 @@
+{
+  "artifact_type": "agent",
+  "change_type": "create",
+  "config": {
+    "agent_level_auth_required": false,
+    "connectors": [],
+    "description": "Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.",
+    "direct_tools": {
+      "tool_filter": null,
+      "tool_names": []
+    },
+    "governance": {
+      "intended_use": "The agent is meant for the accounts payable team to use in triaging supplier invoices. It will read the supplier, amount, due date, and any notes for each invoice and sort it into one of three queues: URGENT, NORMAL, or ON HOLD.",
+      "limitations": "The agent cannot perform any actions beyond sorting invoices into queues. It may get wrong if the information on the invoice is unclear or missing.",
+      "out_of_scope_uses": "The agent must not be used for approving, scheduling, or making payments, or for changing supplier details.",
+      "purpose": "The agent is for reading incoming supplier invoices and sorting them into urgent, normal, and on-hold queues for the accounts payable team."
+    },
+    "guardrails": null,
+    "instructions": "You help the accounts payable team triage supplier invoices. For each invoice, read the supplier, amount, due date and any notes. Put it in one of three queues: URGENT (due within 3 days or marked overdue), NORMAL, or ON HOLD (missing information or a disputed amount). Explain your choice in one sentence. Never approve, schedule or make a payment, and never change supplier details. If something is unclear, put the invoice ON HOLD and say what is missing.",
+    "mcp_servers": [],
+    "model_settings": {
+      "max_tokens": null,
+      "name": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": null
+    },
+    "name": "invoice_triage_demo",
+    "oauth_protected_tools": [],
+    "policies": null,
+    "skill_refs": [],
+    "skills": [],
+    "tags": null,
+    "tenant_mcp_servers": [],
+    "tenant_skills": [],
+    "tenant_tools": [],
+    "tool_guardrails": null
+  },
+  "created_by": "support@intuitive.ai",
+  "dependencies": [],
+  "description": "Reads incoming supplier invoices and sorts them into urgent, normal and on-hold queues for the accounts payable team.",
+  "display_name": "Invoice Triage Demo",
+  "files": [
+    "agents/invoice_triage_demo/agent.json",
+    "agents/invoice_triage_demo/agent.py",
+    "agents/invoice_triage_demo/manifest.json",
+    "agents/invoice_triage_demo/prompt.py"
+  ],
+  "name": "invoice_triage_demo",
+  "origin": "tenant_generated",
+  "replaces_version_no": null,
+  "restored_from_version_no": null,
+  "risk": {
+    "decision_id": "risk_c9414695781e",
+    "tier": 1
+  },
+  "schema_version": 1,
+  "secret_refs": [],
+  "source": "internal_ui",
+  "source_type": "generated",
+  "tags": [],
+  "version": "1.0.0",
+  "version_no": 1
+}
